@@ -186,3 +186,23 @@ form button {
     }
   }
 }
+
+.head{
+  display: flex;
+  justify-content: space-between;
+}
+
+button{
+  /* appearance: none; */
+  background-color:rgb(129, 127, 255);
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font: inherit;
+  font-size: 16px;
+  line-height: 24px;
+  font-variation-settings: "wght" 700;
+  padding: 8px 16px;
+  transition: background-color 0.25s;
+  cursor: pointer;
+}
